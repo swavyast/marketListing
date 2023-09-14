@@ -1,0 +1,30 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<hibernate-mapping package="com.ml.users">
+<class name="User" table="user">
+<id name="userid" column="uid" type="int">
+<generator class="increment" />
+</id>
+<property name="username" column="username" type="string"></property>
+<property name="password" column="password" type="string"></property>
+<property name="name" column="name" type="string"></property>
+<property name="email" column="email" type="string"></property>
+<property name="contact" column="contact" type="string"></property>
+<property name="address" column="address" type="address"></property>
+
+<joined-class name="Vendor" table="vendor">
+<id name="uid" column="uid" type="int">
+<generator class="increment" />
+</id>
+<property name="username" column="username" type="string"></property>
+<property name="password" column="password" type="string"></property>
+<property name="name" column="name" type="string"></property>
+<property name="email" column="email" type="string"></property>
+<property name="contact" column="contact" type="string"></property>
+<property name="address" column="address" type="address"></property>
+
+</joined-class>
+
+</class>
+
+</hibernate-mapping> -->
