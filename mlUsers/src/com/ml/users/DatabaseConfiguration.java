@@ -27,7 +27,7 @@ public class DatabaseConfiguration {
 			properties.put(Environment.DRIVER, "oracle.jdbc.driver.OracleDriver");
 			properties.put(Environment.URL, "jdbc:oracle:thin:@localhost:1521:xe");
 			properties.put(Environment.USER, "system");
-			properties.put(Environment.PASS, "68921794");
+			properties.put(Environment.PASS, "");
 			properties.put(Environment.SHOW_SQL, "true");
 			properties.put(Environment.DIALECT, "org.hibernate.dialect.Oracle12cDialect");
 			properties.put(Environment.HBM2DDL_AUTO, "update");
